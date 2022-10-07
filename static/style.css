@@ -10,11 +10,38 @@ body {
     text-align: center;
 }
 
+#shortage-description p:last-of-type {
+    font-weight: bold;
+}
+
 #shortage-title {
     font-size: 1.5rem;
 }
 
 #player {
-    width: 50%;
-    margin: auto;
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+@media (min-width: 1024px) {
+
+    #player {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    #player {
+        width: 55%;
+
+    }
+}
+
+@media (min-width: 1536px) {
+    #player {
+        width: 45%;
+        margin: auto auto 1.2rem;
+    }
 }
