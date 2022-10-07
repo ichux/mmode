@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    background: #e3342f;
+    color: white;
+    overflow: hidden;
+}
+
+#shortage-title, #shortage-description {
+    text-align: center;
+}
+
+#shortage-title {
+    font-size: 1.5rem;
+}
+
+#player {
+    width: 50%;
+    margin: auto;
+}
