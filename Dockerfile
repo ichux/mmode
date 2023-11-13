@@ -1,4 +1,4 @@
-FROM 3.10-slim-buster
+FROM python:3.10-slim-buster
 
 # ENV PATH="/opt/venv/bin:$PATH"
 ENV LANG C.UTF-8
