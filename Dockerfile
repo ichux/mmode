@@ -1,8 +1,4 @@
-FROM --platform=linux/amd64 python:3.10.7-slim-bullseye
-
-# Set maintainer
-LABEL description='Image for Maintenance mode app'
-LABEL maintainer='Chukwudi Nwachukwu (iChux), <chukwudi.nwachukwu@ng.airtel.com>'
+FROM 3.10-slim-buster
 
 ENV PATH="/opt/venv/bin:$PATH"
 ENV LANG C.UTF-8
